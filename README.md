@@ -12,7 +12,7 @@ if maybe normalize: https://github.com/necolas/normalize.css/
                     npm install --save normalize.css
 
 
-in style.scss:  @import 'normalize'
+in style.scss:  @import 'normalize';
 
 if use this project ->
                         git clone https://github.com/kuzprodev/vite-scss.git
