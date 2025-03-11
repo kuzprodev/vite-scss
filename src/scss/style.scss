@@ -1,13 +1,25 @@
 
 
-@forward "normalize.css";
-@use 'base/variables';
-@use 'fonts';
-@forward 'common';
+// @forward "normalize.css";
+// @use 'base/variables';
+// @use 'fonts';
+// @forward 'common';
 
 
 
 
 
-@forward 'header';
-@forward 'footer';
+// @forward 'header';
+// @forward 'footer';
+
+@import "normalize.css";
+@import 'base/variables';
+@import 'fonts';
+@import 'common';
+
+
+
+
+
+@import 'header';
+@import 'footer';
